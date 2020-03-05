@@ -1,0 +1,7 @@
+AuthUserFile "/home/devm1devx01/public_html/htusers"
+AuthType Basic
+AuthName "HTTP Credentials"
+require valid-user
+<Files htusers>
+deny from all
+</Files>
